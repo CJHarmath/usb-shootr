@@ -19,9 +19,18 @@ usb-shootr
 ## Usage
 
 - move right for 50ms: 
+
 ```
 sudo python rocket.py right 50
 ```
+
+- move right for 50ms then sleep 200, up 200 then left 100: 
+
+```
+sudo python rocket.py right 50 sleep 200 up 200 left 100
+```
+
+
 - control with arrow keys: 
 ```
 sudo python shootr.py
