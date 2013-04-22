@@ -39,8 +39,13 @@ sudo python shootr.py
 ## Install
 
 ```
+sudo apt-get install python libusb
 wget https://github.com/walac/pyusb/archive/master.zip -o pyusb.zip
 unzip pyusb.zip -d pyusb
 cd pyusb
 sudo python setup.py install
+wget https://github.com/csharmath/usb-shootr/archive/master.zip -o usb-shootr.zip
+unzip usb-shootr.zip -o usb-shootr
+cd usb-shootr
+sudo python rocket.py right 50 sleep 200 up 200 left 100
 ```
