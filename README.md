@@ -34,4 +34,4 @@ wget https://github.com/walac/pyusb/archive/master.zip -o pyusb.zip
 unzip pyusb.zip -d pyusb
 cd pyusb
 sudo python setup.py install
-
+```
