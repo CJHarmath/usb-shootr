@@ -119,7 +119,11 @@ def main(args):
 	if (len(args) <3):	
 		print("invalid commands" )
 	else:
-		run_command(args[1], int(args[2]))
+		c = 1
+		for a in args:
+			if c < len(args):
+				run_command(args[c], int(args[c+1]))
+				c = c + 2
 		#time.sleep(int(args[2]))
 
 if __name__ == '__main__':
