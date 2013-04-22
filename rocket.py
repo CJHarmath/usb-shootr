@@ -52,7 +52,8 @@ def run_command(command, value):
     elif command == "zero" or command == "park" or command == "reset":
         # Move to bottom-left
         send_move(DOWN, 2000)
-        send_move(LEFT, 8000)
+        send_move(LEFT, 5600)
+	send_move(RIGHT, 2800)
     elif command == "pause" or command == "sleep":
         time.sleep(value / 1000.0)
     elif command == "led":
