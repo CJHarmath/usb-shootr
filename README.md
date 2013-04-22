@@ -14,5 +14,11 @@ Based on:
 
 
 Usage:
-- move right for 50ms: sudo python rocket.py right 50
-- control with arrow keys: sudo python shootr.py
+- move right for 50ms: 
+```
+sudo python rocket.py right 50
+```
+- control with arrow keys: 
+```
+sudo python shootr.py
+```
